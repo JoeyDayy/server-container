@@ -24,7 +24,7 @@ RUN apk add --no-cache \
     git \
     wget
 
-RUN git clone --depth 1 -b "${TES3MP_VERSION}" https://github.com/TES3MP/TES3MP.git /tmp/TES3MP \
+RUN git clone --depth 1 -b "${TES3MP_VERSION}" https://github.com/JoeyDayy/TES3MP.git /tmp/TES3MP \
     && git clone --depth 1 -b "${TES3MP_VERSION}" https://github.com/TES3MP/CoreScripts.git /tmp/CoreScripts \
     && git clone https://github.com/TES3MP/CrabNet.git /tmp/CrabNet \
     && git clone --depth 1 https://github.com/OpenMW/osg.git /tmp/osg
