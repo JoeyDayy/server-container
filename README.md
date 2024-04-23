@@ -2,6 +2,8 @@
 
 Container image for the TES3MP server.
 
+Forked so I can change the port to 27893 insead of 25565 since I use that for minecraft.
+
 Available for `linux/amd64` and `linux/arm/v7`.
 
 ## Container registry
@@ -38,7 +40,7 @@ docker pull tes3mp/server:0.6.3
 
 ```bash
 git clone https://github.com/JoeyDayy/server-container.git
-cd TES3MP-container
+cd server-container
 git checkout <TES3MP version> # optional
 docker build -t tes3mp/server:<TES3MP version> .
 ```
