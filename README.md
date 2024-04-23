@@ -37,7 +37,7 @@ docker pull tes3mp/server:0.6.3
 ### Building
 
 ```bash
-git clone https://github.com/GrimKriegor/TES3MP-container.git
+git clone https://github.com/JoeyDayy/server-container.git
 cd TES3MP-container
 git checkout <TES3MP version> # optional
 docker build -t tes3mp/server:<TES3MP version> .
